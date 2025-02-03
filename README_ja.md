@@ -15,3 +15,7 @@
 OpenFunscripterのエクステンションメニューからCsvExporterのウインドウを表示し、「Export VorzeSA CSV」ボタンを押してください。
 
 すると、現在アクティブになっているFunscriptをCSVに変換し、OpenFunscripter.exeと同じ場所に「sa.csv」という名前で保存します。
+
+## 変換内容
+
+Funscriptの位置50をUFOSA・A10サイクロンSA用CSVの停止状態とし、位置100が正回転の速度100、位置0が逆回転の速度100として変換されます。

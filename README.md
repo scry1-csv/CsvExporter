@@ -15,3 +15,7 @@ The extensions folder can be opened by going to "Extensions" → "Extension Dire
 Open the CsvExporter window from the extension menu in OpenFunscripter, then click the "Export VorzeSA CSV" button.
 
 This will convert the currently active Funscript into a CSV file and save it as "sa.csv" in the same location as OpenFunscripter.exe.
+
+## Conversion details
+
+Funscript position 50 is converted to the stopped state of the CSV for UFOSA/A10 Cyclone SA, position 100 is converted to a forward rotation speed of 100, and position 0 is converted to a reverse rotation speed of 100.
